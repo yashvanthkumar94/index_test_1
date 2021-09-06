@@ -5,6 +5,6 @@ files:
     destination: /var/www/html/
 hooks:
   ApplicationStart:
-    - location: /opt/codedeploy-agent/deployment-root/86f09e08-8e55-4d78-bffa-4abcafa8b382/scripts/restart_httpd.sh
+    - location: /scripts/restart_httpd.sh
       timeout: 300
       runas: root
